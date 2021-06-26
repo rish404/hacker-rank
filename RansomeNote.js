@@ -1,5 +1,5 @@
 //https://www.hackerrank.com/challenges/ctci-ransom-note/problem
-
+function checkMagazine(magazine, ransom){
 var map = {};
 var replicable = true;
 for (var i of magazine){
@@ -15,3 +15,5 @@ for (var i in map){
     }
 }
 console.log(replicable ? 'Yes' : 'No');
+}
+
